@@ -1,0 +1,54 @@
+<!-- HTML code to add icon in the title bar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Watch Eyy? Second Chance | Jace Anne Official Site</title>
+    <!-- add icon link -->
+    <link rel = "icon" href = "./images/Icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="JA"><img src="./images/JA.png"></a>
+        <ul class="navigation">
+        </ul>
+    </header>
+    <div class="banner">
+        <img src="./images/jaa.png" class="jaa">
+        <div class="content">
+            <img src="./images/Title.png" class="movieTitle">
+            <h1>
+                <p><strong>Eyy? Second Chance</strong></p>
+            </h1>
+            <h4>
+                <span>2022</span>
+                <span><i>18+</i></span>
+                <span>N/A</span>
+                <span>Romance</span>
+            </h4>
+            <p>Jace and Anne ended their relationship before. After 2 years even they have a bad past Anne gives Jace a second chance and they start over again.
+                We will witness how Jace and Anne start again their relationship and continue their story.</p>
+            <div class="buttons">
+                <a href=""><i class="fa fa-play" aria-hidden="true"></i> Play Movie</a>
+            </div>
+            <div class="buttons">
+                <a href="https://drive.google.com/file/d/14hKgZ_TFtw4yMSJpqOl4Gdyj3rBJVENR/view?usp=sharing"><i class="fa fa-play" aria-hidden="true"></i> Watch Trailer</a> 
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleVideo(){
+            const trailer = document.querySelector('.trailer');
+            const video = document.querySelector('video');
+            trailer.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+
+</body>
+</html>
