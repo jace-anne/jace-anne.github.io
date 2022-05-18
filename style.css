@@ -116,3 +116,32 @@ header .logo img
 {
     background: #de0611
 }
+
+@media (max-width: 991px)
+{
+    header
+    {
+        padding: 14px 18px;
+        flex-direction: column;
+    }
+}
+    .banner
+    {
+        padding: 100px 25px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+
+@media (max-width: 600px)
+{
+    .banner
+    {
+        padding: 120px 20px 100px;
+    }
+}
