@@ -125,6 +125,39 @@ header .logo img
     }
 }
 
+@media screen and (min-width: 100px) and (max-width: 1070px) {
+    .banner {
+      background: rgb(0, 0, 0);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 25px;
+    }
+    .banner .jaa {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 65px 0px;
+    }
+    .content
+    {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        top: 455px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+}
+
 @media screen and (min-width: 100px) and (max-width: 600px) {
     .banner {
       background: rgb(0, 0, 0);
