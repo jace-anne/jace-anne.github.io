@@ -104,7 +104,7 @@ body
 }
 .banner .jaa
 {
-    position: fixed;
+    position: absolute;
     top: 0;
     Left: 0;
     width: 100%;
