@@ -104,7 +104,7 @@ body
 }
 .banner .jaa
 {
-    position: absolute;
+    position: fixed;
     top: 0;
     Left: 0;
     width: 100%;
@@ -221,6 +221,14 @@ ul{
     margin-bottom: 2px;
 }
 
+@media (max-width: 991px)
+{
+    header
+    {
+        padding: 11px 18px;
+    }
+}
+
 @media screen and (min-width: 100px) and (max-width: 966px){
 .footer-col{
     position: relative;
@@ -230,45 +238,7 @@ ul{
     }
 }
 
-@media (max-width: 991px)
-{
-    header
-    {
-        padding: 11px 18px;
-    }
-}
-
-@media screen and (min-width: 100px) and (max-width: 966px) {
-    .banner {
-      background: rgb(0, 0, 0);
-      position: absolute;
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      padding: 25px;
-    }
-    .banner .jaa {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 65px 0px;
-    }
-    .content
-    {
-        position: relative;
-        z-index: 1;
-        max-width: 600px;
-        top: 25px;
-    }
-    .banner .content p 
-    {
-        font-size: 1em;
-        font-weight: 300;
-        line-height: 1.5em;
-        color: #fff;
-        margin: 14px 0 14px;
-    }
+@media screen and (max-width: 966px) {
     .toggle-button {
         display: flex;
     }
@@ -298,7 +268,6 @@ ul{
     .navbar-links.active{
         display: flex;
     }
-
 }
 
 @media screen and (min-width: 100px) and (max-width: 966px) {
@@ -322,11 +291,11 @@ ul{
         position: relative;
         z-index: 1;
         max-width: 600px;
-        top: 380px;
+        top: 480px;
     }
 }
 
-  @media screen and (min-width: 100px) and (max-width: 470px) {
+  @media screen and (min-width: 100px) and (max-width: 866px) {
     .banner {
       background: rgb(0, 0, 0);
       position: absolute;
@@ -340,7 +309,111 @@ ul{
         position: relative;
         z-index: 1;
         max-width: 600px;
-        top: 180px;
+        top: 400px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 750px) {
+    .banner {
+      background: rgb(0, 0, 0);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 25px;
+    }
+    .content
+    {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        top: 350px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 650px) {
+    .banner {
+      background: rgb(0, 0, 0);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 25px;
+    }
+    .content
+    {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        top: 300px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 550px) {
+    .banner {
+      background: rgb(0, 0, 0);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 25px;
+    }
+    .content
+    {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        top: 230px;
+    }
+    .banner .content p 
+    {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5em;
+        color: #fff;
+        margin: 14px 0 14px;
+    }
+  }
+
+  @media screen and (min-width: 100px) and (max-width: 490px) {
+    .banner {
+      background: rgb(0, 0, 0);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 25px;
+    }
+    .content
+    {
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        top: 200px;
     }
     .banner .content p 
     {
